@@ -12,7 +12,59 @@
 </head>
 
 <body>
+  <div class="container">
+    <h1>Appointment booking</h1>
+    <form class="row g-3">
+      <div class="col-md-6">
+        <label for="name" class="form-label">Name:</label>
+        <input type="name" class="form-control" id="name" placeholder="Your name" autofocus>
+      </div>
+      <div class="col-md-6">
+        <label for="date" class="form-label">Date</label>
+        <input type="date" class="form-control" id="date">
+      </div>
+      <div class="col-12">
+        <label for="description" class="form-label">Appointment description:</label>
+        <input type="text" class="form-control" id="desc">
+      </div>
 
+      <div class="col-md-2">
+        <label for="start" class="form-label">Start time:</label>
+        <select id="inputState" class="form-select">
+          <option selected>Choose...</option>
+          <option value="one" id="time1">8:00</option>
+          <option value="two" id="time2">9:00</option>
+          <option value="three" id="time3">10:00</option>
+          <option value="four" id="time4">11:00</option>
+          <option value="five" id="time5">12:00</option>
+          <option value="six" id="time6">1:00</option>
+          <option value="seven" id="time7">2:00</option>
+          <option value="eight" id="time8">3:00</option>
+          <option value="nine" id="time9">4:00</option>
+          <option value="ten" id="time10">5:00</option>
+        </select>
+      </div>
+      <div class="col-md-2">
+        <label for="End" class="form-label">End time:</label>
+        <select id="inputState" class="form-select">
+          <option selected>Choose...</option>
+          <option value="onef" id="time1f">8:30</option>
+          <option value="twof" id="time2f">9:30</option>
+          <option value="threef" id="time3f">10:30</option>
+          <option value="fourf" id="time4f">11:30</option>
+          <option value="fivef" id="time5f">12:30</option>
+          <option value="sixf" id="time6f">1:30</option>
+          <option value="sevenf" id="time7f">2:30</option>
+          <option value="eightf" id="time8f">3:30</option>
+          <option value="ninef" id="time9f">4:30</option>
+          <option value="tenf" id="time10f">5:30</option>
+        </select>
+      </div>
+      <div class="col-12">
+        <button type="submit" class="btn btn-primary">Book</button>
+      </div>
+    </form>
+  </div>
 </body>
 
 </html>
